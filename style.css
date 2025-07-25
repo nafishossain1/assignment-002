@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0;
 }
+h2 {
+  font-family: "Noto Serif";
+}
+h1,
+p,
+button,
+a,
+li {
+  font-family: "Inter";
+}
 .container {
   max-width: 1140px;
   margin: auto;
