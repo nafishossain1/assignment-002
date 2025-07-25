@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 .container {
   max-width: 1140px;
@@ -9,6 +11,7 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-items {
   display: flex;
@@ -213,10 +216,17 @@ nav {
   font-size: 50px;
   font-weight: bold;
 }
+.footer-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* footer */
 .footer {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .footer-prent {
   width: 1440px;
@@ -233,4 +243,25 @@ nav {
 .image {
   display: flex;
   align-items: center;
+}
+
+.main-content-image {
+  position: relative;
+}
+
+.features-badge {
+  position: absolute;
+  top: -143px;
+  right: -109px;
+}
+
+.features-badge img {
+  width: 286px;
+  height: 286px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
