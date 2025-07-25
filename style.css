@@ -167,7 +167,7 @@ nav {
 }
 .visitor-one {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-ana.png);
+    url(assets/deal-ana.png);
   width: 367px;
   height: 197px;
   border-radius: 10px;
@@ -183,7 +183,7 @@ nav {
 }
 .visitor-two {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-bloom.png);
+    url(assets/deal-bloom.png);
   color: #ffff;
   width: 367px;
   height: 197px;
@@ -196,7 +196,7 @@ nav {
 }
 .visitor-three {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/deal-zabo.png);
+    url(assets/deal-zabo.png);
   font-size: 40px;
   font-weight: bold;
   width: 753px;
@@ -224,7 +224,7 @@ nav {
 .banner-parent {
   width: 100%;
   height: 348px;
-  background-image: url(/assets/news-letter-bg.png);
+  background-image: url(assets/news-letter-bg.png);
   margin-top: 121px;
   display: flex;
   align-items: center;
