@@ -49,6 +49,19 @@ nav {
   color: #4e4e4e;
 }
 
+.right-menu {
+  display: flex;
+  gap: 48px;
+}
+
+.cart li {
+  list-style: none;
+}
+.cart li a {
+  text-decoration: none;
+  color: #252432;
+}
+
 /* Flower-section */
 
 .Plants {
@@ -264,4 +277,75 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 20px;
+  }
+  nav img {
+    width: 63px;
+    height: 38px;
+  }
+  .nav-items {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .Flower-card {
+    width: 171px;
+    height: 340px;
+  }
+
+  .flowers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Flower-card {
+    flex: 0 0 47%;
+    box-sizing: border-box;
+  }
+  .Flower-card img {
+    width: 100%;
+  }
+
+  .maine {
+    flex-direction: column;
+  }
+
+  .main-content-image img {
+    width: 100%;
+  }
+
+  .features-badge {
+    display: none;
+  }
+  .visitor {
+    flex-direction: column;
+  }
+  .visitor-three,
+  .visitor-one,
+  .visitor-two {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 184px;
+  }
+
+  .visitor-three {
+    margin-top: 25px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+  .footer div ul li {
+    list-style: none;
+  }
 }
